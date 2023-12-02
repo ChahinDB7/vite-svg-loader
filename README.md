@@ -18,14 +18,14 @@ import MyIcon from './my-icon.svg'
 
 ### Install
 ```bash
-npm install vite-svg-loader --save-dev
+npm install @chahindb7/vite-svg-loader --save-dev
 ```
 
 ### Setup
 
 #### `vite.config.js`
 ```js
-import svgLoader from 'vite-svg-loader'
+import svgLoader from '@chahindb7/vite-svg-loader'
 
 export default defineConfig({
   plugins: [vue(), svgLoader()]
@@ -95,7 +95,7 @@ import IconWithoutOptimizer from './my-icon.svg?skipsvgo'
 If you use the loader in a Typescript project, you'll need to reference the type definitions inside `vite-env.d.ts`:
 ```ts
 /// <reference types="vite/client" />
-/// <reference types="vite-svg-loader" />
+/// <reference types="@chahindb7/vite-svg-loader" />
 ```
 
 ## Sponsors

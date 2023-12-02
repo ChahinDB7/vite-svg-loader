@@ -18,9 +18,6 @@
     "cypress": "^8.6.0",
     "standard": "^16.0.3"
   },
-  "peerDependencies": {
-    "vue": ">=3.2.13"
-  },
   "scripts": {
     "lint": "standard --fix",
     "cypress": "cypress run",
